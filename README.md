@@ -1,10 +1,10 @@
 ![Blog Card Component](./design/desktop.png)
 
 **Challenge Title**
-Blog Card Component
+Pricing Card Page
 
 **Challenge Description**
-In this challenge, you'll build a Blog Card Component. This challenge is perfect for you if you've been learning CSS and want to take your CSS skills to the next level by building something new and beginner-friendly.
+In this challenge, you'll build a Pricing Card Page. This challenge is perfect for you if you've been learning CSS and want to take your CSS skills to the next level by building something new and beginner-friendly.
 
 **Difficulty Level**
 Beginner
