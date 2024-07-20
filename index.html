@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pricing Cards</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="header-1">Your current plan:</p>
+        <p class="header-2">Starter Trial • 500MAUs</p>
+      </header>
+      <div class="plan">
+        <h1 class="h1-plan">Choose Plan</h1>
+        <div class="container-plan">
+          <p>Billed monthly</p>
+          <div class="change-plan">
+            <div class="ball"></div>
+          </div>
+          <p>Billed anually</p>
+        </div>
+      </div>
+      <div class="cards-box">
+        <div class="cards">
+          <h1>Starter</h1>
+          <p class="price price-corners">$19</p>
+          <ul>
+            <li>500 MAUs</li>
+            <li>3 Projects</li>
+            <li>Unlimited guides</li>
+            <li>Unlimited flows</li>
+            <li>Branded themes</li>
+            <li>Email support</li>
+          </ul>
+          <button class="button-global">Choose Plan</button>
+        </div>
+        <br />
+        <div class="cards">
+          <h1>Pro</h1>
+          <p class="price price-middle">
+            $99<span class="plan-type">/month</span>
+          </p>
+          <select name="options" id="monthly" onchange="updateSelect()">
+            <option value="1000">1000 MAUs</option>
+            <option value="2000">2000 MAUs</option>
+            <option selected value="2500">2500 MAUs</option>
+            <option value="3000">3000 MAUs</option>
+          </select>
+          <sub>Montlhy active users</sub>
+          <ul>
+            <li>All starter features, plus:</li>
+            <li>Unlimited projects</li>
+            <li>Unlimited fully customized themes</li>
+            <li>A dedicated Customer Success Manager</li>
+          </ul>
+          <button class="button-highlight">Choose Plan</button>
+        </div>
+        <br />
+        <div class="cards">
+          <h1>Enterprise</h1>
+          <p class="price price-corners">Let's Talk!</p>
+          <ul>
+            <li>All pro features</li>
+            <li>Unlimited MAUs</li>
+            <li>Dedicated enviroment</li>
+            <li>Enterprise account administration</li>
+            <li>Premium support and services</li>
+          </ul>
+          <button class="button-global">Contact Us</button>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
